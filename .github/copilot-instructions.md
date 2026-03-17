@@ -48,3 +48,12 @@ This project is a ski race timing system built with two Raspberry Pi Zero 2 W un
 - **CRC**: `crcmod` or `binascii` (LoRa message integrity)
 - **Audio (future)**: `pygame.mixer` or `pyttsx3`
 - Use `venv` for dependency isolation and `requirements.txt` for pinned versions.
+
+## Remote Access
+
+To run commands on the Raspberry Pi stations via SSH:
+
+- **Station 1 (Start)**: `ssh brandon@192.168.1.204` — hostname: `station1`
+- **Station 2 (Finish)**: `ssh brandon@192.168.1.76` — hostname: `station2`
+
+Use `ssh brandon@<ip> '<command>'` to execute commands remotely from the dev machine.

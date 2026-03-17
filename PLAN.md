@@ -368,10 +368,10 @@ The root filesystem is vulnerable to corruption on sudden power loss (dead batte
 ## Build Phases
 
 ### Phase 1 — Hardware Bring-Up
-- [ ] Set up Raspberry Pi OS on both Pi Zero 2 W units
+- [x] Set up Raspberry Pi OS on both Pi Zero 2 W units
 - [ ] Configure read-only root filesystem (overlayfs) + writable /data partition
-- [ ] Install Blinka and CircuitPython libraries
-- [ ] Verify LoRa bonnet: send/receive test messages between units
+- [x] Install Blinka and CircuitPython libraries
+- [x] Verify LoRa bonnet: send/receive test messages between units
 - [ ] Verify 7-segment display: write numbers over I2C
 - [ ] Verify IR break beam sensors: detect beam interruption via GPIO
 - [ ] Verify buttons: read GPIO input with LED control (including button LEDs)
